@@ -1,0 +1,36 @@
+#name-input {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+
+#name-input:focus {
+  border-color: #000;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin-top: 20px;
+}
+
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4f46e5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+}
